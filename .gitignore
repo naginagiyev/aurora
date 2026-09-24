@@ -1,0 +1,30 @@
+# Virtual environment (149 MB, machine-specific — rebuild with `uv sync`)
+.venv/
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Downloaded media — large, personal, and not ours to redistribute.
+# Recreated on demand; library.ensure_dirs() makes the folders on startup.
+songs/
+covers/
+lyrics/
+playlist_covers/
+
+# Personal library: your tracks and playlists
+data/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
